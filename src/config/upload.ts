@@ -9,7 +9,7 @@ export default {
         .replace(/ /g, '')
         .replace('(', '')
         .replace(')', '');
-      return callback(null, `${new Date()}-${filename}`);
+      return callback(null, filename);
     },
   }),
 };
